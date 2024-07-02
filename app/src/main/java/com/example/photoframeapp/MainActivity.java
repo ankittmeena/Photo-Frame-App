@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     private ImageView imageView;
     private Button prevButton, nextButton;
 
-    private int[] images = {
+    private final int[] images = {
             R.drawable.image1,
             R.drawable.image2,
             R.drawable.image3,
